@@ -1,11 +1,19 @@
 # epsi-test
 
 
+Auteurs:
+
+* SY Birane 
+* OUARET sALIM
 
 
 
 
-db_nmap -v sVadresse IP ""
+Les différentes cammandes: 
+
+
+
+db_nmap -v sV  "adresse IP"
 
 services 
 
@@ -15,7 +23,11 @@ use expoit/linux/etc/etc
 
 show options 
 
+set RHOSTS "adresse IP"
+
 run
+
+Les failles trouvées :
 
 1- vsftpd
 
