@@ -9,7 +9,9 @@ Auteurs:
 
 
 
-Les différentes cammandes: 
+
+
+Les différentes commandes utilisées: 
 
 
 
@@ -27,18 +29,26 @@ set RHOSTS "adresse IP"
 
 run
 
+
+
 Les failles trouvées :
 
-1- vsftpd
+1- Le "vsftpd"
 
-ce module exploite une backdoor qui a été ajouté a l'archive de telechargement vsftpd
+Ce module exploite une backdoor qui a été ajouté a l'archive de téléchargement vsftpd
 
+Solution:
+
+Mettre a jour le module vsftpd (la derniere version).
 
 2-Le "ftp/anonyme" 
 
-scanner une plage d'adresses IP à la recherche des serveurs FTP qui permettent un accès anonyme.
+Scanner une plage d'adresses IP à la recherche des serveurs FTP qui permettent un accès anonyme.
 
 
 3-Le "ftp_version" 
 
-le module scanne simplement une plage d'adresses IP et détermine la version de tous les serveurs FTP qui sont en cours d' exécution
+Le module scanne simplement une plage d'adresses IP et détermine la version de tous les serveurs FTP qui sont en cours d' exécution
+
+
+
